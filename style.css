@@ -1,3 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 26px;
+}
+h2 {
+  font-size: 40px;
+}
+h3 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 20px;
+}
+p {
+  font-size: 22px;
+  line-height: 1.5;
+}
+li {
+  font-size: 20px;
+}
+.author,
+.related-author {
+  font-size: 18px;
+}
+footer p {
+  font-size: 16px;
+}
+
 h1,
 h2,
 h3,
@@ -14,21 +46,21 @@ footer p {
   font-size: 16px;
 }
 
-article header p {
+/* article header p {
   font-style: italic;
-}
+} */
 
-header p {
+/* header p {
   font-style: italic;
-}
+} */
 
-ol li:nth-child(even) {
+/* ol li:nth-child(even) {
   color: red;
-}
-
+} */
+/* 
 article p:first-child {
   font-weight: bold;
-}
+} */
 
 a:link {
   color: #1098ad;
@@ -51,7 +83,7 @@ a:active {
   font-style: italic;
 }
 
-h1, 
+h1,
 h2,
 h3 {
   color: #1098ad;
@@ -59,15 +91,109 @@ h3 {
 
 body {
   color: #444;
+  font-family: sans-serif;
+  border-top: 10px solid #1098ad;
 }
 
 .main-header {
   background-color: #f7f7f7;
+  padding: 20px 40px;
+  margin-bottom: 60px;
 }
 
 aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
+  width: 500px;
 }
 
+li {
+  margin-bottom: 10px;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+aside {
+  padding: 50px 0;
+}
+
+article {
+  margin-bottom: 60px;
+}
+
+h2 {
+  margin-bottom: 30px;
+}
+
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+.post-img {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+nav {
+  font-size: 18px;
+}
+
+nav a:link,
+nav a:visited {
+  display: inline-block;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+nav a:link:last-child,
+nav a:visited:last-child {
+  margin-right: 0;
+}
+
+.like-button {
+  padding: 30px;
+  border: 1px solid aquamarine;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.sziv {
+  color: red;
+  font-size: 18px;
+}
+.author-img {
+  width: 50px;
+  height: 50px;
+}
+.related {
+  list-style: none;
+}
+.related img{
+  width: 75px;
+  height: 75px;
+}
+h1{
+  font-style: italic;
+}
+h1::first-letter{
+  font-style: normal;
+}
